@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Fernando D. Santoro">
+        <meta name="description" content="Evaluacion final del curso Desarrollo WEB de NextU curso1">
+        <meta name="keywords" content="HTML,SVG,WEB">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Educacion</title>
+    </head>
+    <body>
+        <header>
+          <svg height="120" width="120">
+              <rect x="10" y="10" rx="20" ry="20" width="100" height="100" fill="rgb(102, 153, 255)" stroke="red" stroke-width="5" opacity="0.5"/>
+              <text fill="#ffffff" font-size="45" font-family="Sans" x="15" y="76">FDS</text>
+              FDS Logo
+            </svg>
+           <h1>Hoja de vida</h1>
+           <hr>
+           <h2>Nombres: Fernando Daniel</h2>
+           <h2>Apellidos: Santoro</h2>
+           <h3>Fecha de Nacimiento: 3 de Agosto de 1978</h3>
+           <h3>Lugar de Nacimiento: Buenos Aires - Argentina</h3>
+       </header>
+       <navbar>
+           <a href="index.html">Inicio</a> |
+           <a href="educacion.html">Educación</a> |
+           <a href="experiencia.html">Experiencia</a>
+       </navbar>
+           <h2>Educación</h2>
+           <table border="1" cellpadding="0" cellspacing="0">
+               <thead>
+                   <tr>
+                       <th width="100">Año</th>
+                       <th width="100">Institución</th>
+                       <th width="100">Lugar</th>
+                       <th width="100">¿Culminó?</th>
+                    </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                    </tr>
+               </tbody>
+           </table>
+           <h2>Agregar estudios:</h2>
+           <form>
+               <p>
+                   <label for="anio">Año:</label>
+                   <select id="anio" name="anio">
+                       <option value="1">2010</option>
+                       <option value="2">2011</option>
+                       <option value="3">2012</option>
+                       <option value="4">2013</option>
+                       <option value="5">2014</option>
+                       <option value="6">2015</option>
+                       <option value="7">2016</option>
+                       <option value="8">2017</option>
+                   </select>
+               </p>
+               <p>
+                   <label for="institucion">Institución:</label>
+                   <input type="text" id="institucion" name="institucion" required>
+               </p>
+               <p>
+                   <label for="lugar">Lugar:</label>
+                   <textarea id="lugar" name="lugar"></textarea>
+               </p>
+               <p>
+                   <label for="culmino">¿Culminó?</label>
+                   <input type="radio" name="culmino" value="si" checked>Si
+                   <input type="radio" name="culmino" value="no">No
+               </p>
+               <input type="submit" value="Enviar">
+           </form>
+           <hr>
+           
+       <footer>
+           <p><strong>email:</strong><em>mi@mail.com</em></p>
+           <p><strong>te:</strong><em>+54 11 5555 5555</em></p>
+       </footer>
+    </body>
+</html>
